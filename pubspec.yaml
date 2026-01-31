@@ -1,0 +1,80 @@
+name: ia_browser
+description: "AI-Powered In-App Browser & Document Summarizer - A Flutter cross-platform app with custom browser, AI summarization, translation, and smart file management."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  
+  # State Management - Riverpod (chosen for its compile-time safety, testability, and scalability)
+  flutter_riverpod: ^2.5.1
+  
+  # Browser Integration
+  flutter_inappwebview: ^6.1.5
+  
+  # Local Storage & Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  
+  # File Handling
+  file_picker: ^8.1.2
+  open_file: ^3.5.7
+  permission_handler: ^11.3.1
+  
+  # Document Text Extraction
+  syncfusion_flutter_pdf: ^27.2.4
+  
+  # HTTP & API
+  http: ^1.2.2
+  dio: ^5.7.0
+  
+  # Connectivity
+  connectivity_plus: ^6.0.5
+  
+  # UI Components
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  share_plus: ^10.0.3
+  url_launcher: ^6.3.0
+  html: ^0.15.4
+  
+  # Logging
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment and add actual assets when available
+  # assets:
+  #   - assets/icons/
+  #   - assets/animations/
+  
+  # Uncomment and add Geist font files if desired
+  # fonts:
+  #   - family: Geist
+  #     fonts:
+  #       - asset: assets/fonts/Geist-Regular.ttf
+  #       - asset: assets/fonts/Geist-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Geist-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Geist-Bold.ttf
+  #         weight: 700
